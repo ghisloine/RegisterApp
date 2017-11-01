@@ -1,0 +1,22 @@
+  <%- include('includes/header')%>
+  <div class="container">
+
+    <form class="form-signin">
+      <h2 class="form-signin-heading text-center">Registration</h2>
+      <label class="sr-only">Name</label>
+      <input type="text" name="Name" class="form-control" placeholder="Name" required autofocus>
+      <label class="sr-only">E-Mail</label>
+      <input type="text" name="email" class="form-control" placeholder="Email" required autofocus>
+      <label class="sr-only">User Name</label>
+      <input type="email" name="Username" class="form-control" placeholder="Username" required autofocus>
+      <br>
+      <label class="sr-only">Password</label>
+      <input type="password" name="Password" class="form-control" placeholder="Password" required>
+      <label class="sr-only">Confirm Password</label>
+      <input type="password" name=" Password2" class="form-control" placeholder="Password Confirm" required>
+      <p>Have Account ?<a href="/users/login">Login</a></p>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+    </form>
+
+  </div>
+  <%- include('includes/footer')%>
